@@ -40,7 +40,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: blue;
+    color: #004080;
     text-decoration: underline;
 }
 
@@ -77,20 +77,68 @@ nav ul li a:hover {
     transition: transform 0.3s ease;
 }
 
-.about {}
+
 .card h3 {
-    background: #004080;
     padding: 10px;
     border-radius: 5px;
+    
 }
 
 .card:hover {
     transform: scale(1.05);
-    background: rgba(0,0,0,0.7);
+    background: #004080;
 }
+
 
 footer {
     text-align: center;
     padding: 15px;
-    background: rgba(255, 255, 255, 0.6);
+
 }
+
+/* ==== About Us page ==== */
+.about-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.title-blue {
+    background: #004080;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.title-yellow {
+    background: #ffd700;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.about-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    max-width: 400px;
+}
+
+.about-text {
+    background: #00274d;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: left;
+    line-height: 1.5;
+}
+
+.about-text p {
+    margin: 0;
+}
+
+/* ==== Rules page ==== */
+
