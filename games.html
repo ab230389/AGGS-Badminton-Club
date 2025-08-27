@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AGGS Badminton - Games</title>
-    <link rel="main css" href="main.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <header>
@@ -14,14 +14,56 @@
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="about_Us.html">ABOUT US</a></li>
                 <li><a href="rules.html">RULES</a></li>
-                <li><a href="games.html">GAMES</a></li>
+                <li class="dropdown">
+                    <a href="games.html" class="active">GAMES</a>
+                    <ul class="dropdown-content">
+                        <li><a href="advanced.html">Advanced</a></li>
+                        <li><a href="socials.html">Socials</a></li>
+                        <li><a href="leaderboard.html">leaderboard</a></li>
+                    </ul>
+                </li>
                 <li><a href="join_Us.html">JOIN US</a></li>
             </ul>
             
         </nav>
     </header>
-    <main>
+    <main class="games-comtainer">
+        <h1 class="blue">AGGS BADMINTON CLUB</h1>
+        <h2 class="yellow">Advanced Girls - Monday</h2>
+        <h3>Upcoming Badminton Games</h3>
+
+        <table class="games-table">
+            <tr>
+                <th>TIME</th>
+                <th>Home - AWAY</th>
+                <th>COURT</th>
+            </tr>
+            <tr>
+                <td>Mon<br>9/06/2025<br>3:30pm</td>
+                <td>AGGS 1 VS ONEHUNGA GIRLS RED</td>
+                <td>ABA - 12</td>
+            </tr>
+            <tr>
+                <td>Mon<br>9/06/2025<br>3:30pm</td>
+                <td>AGGS 2 VS MAGS GREEN</td>
+                <td>ABA - 11</td>
+            </tr>
+            <tr>
+                <td>Mon<br>9/06/2025<br>3:30pm</td>
+                <td>AGGS 3 VS GLENDOWIE GIRLS NAVY</td>
+                <td>EPSOM COURT - 3</td>
+            </tr>
+            <tr>
+                <td>Mon<br>9/06/2025<br>3:30pm</td>
+                <td>AGGS 4 VS BARADENE ACES</td>
+                <td>EPSOM COURT - 1</td>
+            </tr>
+        </table>
         
     </main>
+
+    <footer>
+        <p>badmintonclub@aggs.school.nz</p>
+    </footer>
 </body>
 </html>
