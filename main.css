@@ -5,7 +5,6 @@
     
 }
 body {
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     background: url("homepage_bg.png") no-repeat center center fixed;
     background-size: cover;
@@ -45,10 +44,11 @@ nav ul li a:hover {
 }
 
 .welcome-text {
-    position: absolute;
-    top: 40%;
-    left: 10%;
-    transform: translateY(-50%);
+    font-family: 'yesava One', serif;
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 40px;
 }
 
 .welcome-text h1 {
@@ -140,7 +140,7 @@ footer {
     margin: 0;
 }
 
-/* ==== Rules page ==== */
+/* Rules page */
 
 .rules-bg {
     background: url(rules_bg.png) no-repeat center center fixed;
@@ -230,11 +230,18 @@ footer {
     }
 }
 
-/* ==== Games page ====*/
+/* Games page */
 
+.games-container {
+    text-align: center;
+}
+
+.games-container h3 {
+    margin: 10px 0;
+}
 .games-section {
     padding: 50px 20px;
-    min-height: 100vh;
+    min-height: 100vh;                   
     text-align: center;
 }
 
@@ -246,7 +253,7 @@ footer {
 }
 
 .games-table th, .games-table td {
-    border: 1px solid black;
+    border: 3px solid black;
     padding: 12px;
     text-align: center;
 }
@@ -258,3 +265,23 @@ footer {
 html {
     scroll-behavior: smooth;
 }
+
+/* Join Us page */
+
+.join-container {
+    text-align: center;
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+.join-box {
+    background-color: #00274d;
+    color: #ffd700;
+    padding: 30px;
+    border-radius: 12px;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-top: 20px;
+
+}
+
