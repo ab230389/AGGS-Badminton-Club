@@ -9,43 +9,70 @@
 </head>
 <body>
     <header>
-        <img src="badmintonlogo.png" alt="AGGS Badminton Club logo"  class="logo">
+        <div class="logo">
+            <img src="badmintonlogo.png" alt="AGGS Badminton Club logo">
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="about_Us.html">ABOUT US</a></li>
                 <li><a href="rules.html">RULES</a></li>
-                <li><a href="games.html">GAMES</a></li>
+                <li class="dropdown">
+                    <a href="games.html">GAMES<span class="arrow">▼</span></a>
+                    <ul class="dropdown-content">
+                        <li><a href="games.html#advanced">Advanced</a></li>
+                        <li><a href="games.html#socials">Socials</a></li>
+                        <li><a href="games.html#leaderboard">Leaderboard</a></li>
+                    </ul>
+                </li>
                 <li><a href="join_Us.html">JOIN US</a></li>
             </ul>
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                ≡
+            </button>
         </nav>
     </header>
 
-<section class="welcome-text">
-    <h1>Welcome<br>To<br>AGGS Badminton Squad</h1>
-</section>
-    <main class="card-grid"> 
-        <div class="card about us">
-            <img src=""
-            <h3>About Us</h3>
-            <p>Meet the team who are running the club and the location of the matches</p>
-        </div>
-        <div class="card rules">
-            <h3>RULES</h3>
-            <p>Learn the rules and be a pro</p>
-        </div>
-        <div class="card leaderboard">
-            <h3>LEADERBOARD</h3>
-            <p>Have a look at the example of scoring sheet and top teams</p>
-        </div>
-        <div class="card join">
-            <h3>JOIN</h3>
-            <p>Join the AGGS Badminton and be part of AGGS Badminton history</p>
-        </div>
-
+    <main>
+        <section class="welcome-text">
+            <h1>Welcome<br>To<br>AGGS Badminton Club</h1>
+        </section>
+        <section class="card-grid"> 
+            <div class="card">
+                <img src="index1.png" alt="About Us">
+                <div class="card-text">
+                    <h3>ABOUT US</h3>
+                    <p>Meet the team who are running the club and the location of the matches</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="index2.png" alt="Rules">
+                <div class="card-text">
+                    <h3>RULES</h3>
+                    <p>Learn the rules and be a pro</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="index3.png" alt="leaderboard">
+                <div class="card-text">
+                    <h3>LEADERBOARD</h3>
+                    <p>Have a look at the example of scoring sheet and top teams</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="index4.png" alt="Join Us">
+                <div class="card-text">
+                    <h3>JOIN</h3>
+                    <p>Join the AGGS Badminton and be part of AGGS Badminton history</p>
+                </div>
+            </div>
+        </section>
     </main>
 <footer>
     <p>badmintonclub@aggs.school.nz</p>
 </footer>
+
+<!-- Link to JavaScript-->
+ <script src="script.js"></script>
 </body>
 </html>
