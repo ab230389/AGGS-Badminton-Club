@@ -76,7 +76,7 @@ nav ul li a:hover {
 }
 
 .dropdown-content li a {
-    color: white;
+    color: #ffd700;
     text-decoration: none;
     display: block;
 }
@@ -356,7 +356,7 @@ footer {
 
 /* Rules page */
 
-.rules-bg {
+.rules-background {
     background: url(rules_bg.png) no-repeat center center fixed;
     background-size: cover;
 }
@@ -446,6 +446,11 @@ footer {
 
 /* Games page */
 
+.games-background {
+    background: url(gamesbg.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
 .games-container {
     text-align: center;
 }
@@ -481,6 +486,10 @@ html {
 }
 
 /* Join Us page */
+.join-background {
+    background: url(joinbg.png) no-repeat center center fixed;
+    background-size: cover;
+}
 
 .join-container {
     text-align: center;
